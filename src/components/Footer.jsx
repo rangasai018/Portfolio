@@ -1,0 +1,29 @@
+import { personalInfo } from '../data/portfolio';
+
+function Footer() {
+  const year = new Date().getFullYear();
+
+  return (
+    <footer className="footer">
+      <div className="container footer__inner">
+        <p>
+          © {year} {personalInfo.name}. Built with React & Vite.
+        </p>
+        <div className="footer__links">
+          <a href={personalInfo.github} target="_blank" rel="noreferrer">
+            GitHub
+          </a>
+          <a href={personalInfo.linkedin} target="_blank" rel="noreferrer">
+            LinkedIn
+          </a>
+          <a href={`mailto:${personalInfo.email}`}>Email</a>
+          <a href={personalInfo.resumeFile} download="Ranga_Sai_CH_Resume.pdf">
+            Resume
+          </a>
+        </div>
+      </div>
+    </footer>
+  );
+}
+
+export default Footer;

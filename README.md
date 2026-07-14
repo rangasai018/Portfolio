@@ -1,91 +1,61 @@
-## 🌐 Live Demo
-[Click here to view my portfolio](https://rangasai018.github.io/portfolio/)
+# Ranga Sai CH — Portfolio
 
+Professional personal portfolio built with **React** and **Vite**.
 
-**Personal Portfolio Website:**
+## Live Demo
 
-This project is a personal portfolio website developed using HTML, CSS, and JavaScript.
-It is designed to present personal information, technical skills, and project details in a structured and professional manner.
+[View portfolio](https://rangasai018.github.io/portfolio/)
 
-**Overview:**
+## Features
 
-• A portfolio website serves as a digital profile for showcasing academic background and technical competencies.
+- Modern, responsive single-page layout
+- React component architecture
+- Animated hero with typing effect
+- Scroll-reveal animations
+- Interactive skills spotlight
+- Mobile-friendly navigation
+- Project and contact sections
 
-• This project provides a simple and effective platform to highlight skills and learning progress in the fields of web development and cyber security.
+## Tech Stack
 
-**Objectives:**
+- React 19
+- Vite 7
+- CSS (custom design system)
 
-• The objectives of this project are:
+## Getting Started
 
-• To design a professional and responsive portfolio website
+```bash
+npm install
+npm run dev
+```
 
-• To organize skills and projects in a clear and presentable format
+Open `http://localhost:5173` in your browser.
 
-• To demonstrate fundamental web development concepts
+## Build for Production
 
-• To create a single-page user experience with interactive navigation
+```bash
+npm run build
+npm run preview
+```
 
-**Key Features:**
+The production build outputs to the `dist/` folder.
 
-• Professional hero section with background image
+## Project Structure
 
-• Skills section displayed using a card-based layout
+```
+src/
+  components/   # UI sections (Navbar, Hero, Skills, etc.)
+  data/         # Portfolio content
+  hooks/        # Custom React hooks
+  App.jsx
+  main.jsx
+  index.css
+public/         # Static assets (skill icons)
+```
 
-• Projects section describing academic and technical work
+## Author
 
-• Contact section for basic information
-
-• Navigation system to show and hide sections dynamically
-
-• Responsive and user-friendly interface
-
-**Technologies Used:**
-
-• HTML5 for webpage structure
-
-• CSS3 for layout and styling
-
-• JavaScript for interactivity and navigation
-
-**Working Principle:**
-
-When the website loads, the home section is displayed by default.
-Other sections such as Skills, Projects, and Contact remain hidden and are displayed only when the user selects the corresponding option from the navigation menu.
-This approach provides a clean and organized single-page experience.
-
-**Design Approach:**
-
-• The design focuses on simplicity, consistency, and readability.
-• A modern layout with balanced spacing and color contrast is used to improve visual appeal and usability.
-• Information is presented using sections and cards to ensure clarity.
-
-**Learning Outcomes:**
-
-Through this project, the following concepts were applied ->
-
-• Structuring web pages using HTML
-
-• Styling layouts with CSS
-
-• Implementing basic interactivity using JavaScript
-
-• Designing a responsive and professional interface
-
-**Future Scope:**
-
-The project can be enhanced by adding ->
-
-• Animation and transition effects
-
-• A resume download section
-
-**Additional project details:**
-
-• Improved mobile navigation
-
-• Theme customization
-
-**Conclusion:**
-
-This portfolio website demonstrates the application of fundamental web development techniques to create a professional digital profile.
-It serves as a foundation for showcasing skills and projects and can be extended as more experience is gained.
+**Ranga Sai CH**  
+Email: chiraboinarangasai@gmail.com  
+LinkedIn: [ranga-sai-ch](https://www.linkedin.com/in/ranga-sai-ch)  
+GitHub: [RangaSaiCh](https://github.com/RangaSaiCh)
