@@ -4,7 +4,7 @@ Professional personal portfolio built with **React** and **Vite**.
 
 ## Live Demo
 
-[View portfolio](https://rangasai018.github.io/portfolio/)
+👉 https://portfolio-bay-zeta-40.vercel.app/
 
 ## Features
 
