@@ -47,7 +47,7 @@ export const socialLinks = [
 export const navLinks = [
   { id: 'home', label: 'Home' },
   { id: 'about', label: 'About' },
-  { id: 'experience', label: 'Experience' },
+  { id: 'education', label: 'Education' },
   { id: 'skills', label: 'Skills' },
   { id: 'projects', label: 'Projects' },
   { id: 'contact', label: 'Contact' },
@@ -55,36 +55,26 @@ export const navLinks = [
 
 export const education = [
   {
-    degree: 'B.Tech in Computer Science & Engineering (Cyber Security)',
-    institution: 'CMR College of Engineering & Technology, Hyderabad, India',
-    period: '2022 — 2026',
+    degree: 'B.Tech in Computer Science Engineering (Cyber Security)',
+    institution: 'CMR College of Engineering & Technology, Medchal, Telangana',
+    period: 'Nov 2022 — May 2026',
+    score: 'GPA: 7.32',
     description:
       'Focused on network security, ethical hacking, secure software development, and threat analysis.',
   },
-];
-
-export const experience = [
   {
-    role: 'Cyber Security Projects & Labs',
-    company: 'Academic & Self-Directed',
-    period: '2023 — 2026',
-    description:
-      'Hands-on work with Wireshark, Nmap, Burp Suite, and Metasploit through lab exercises and personal projects.',
-    highlights: [
-      'Performed packet analysis and identified unencrypted traffic risks',
-      'Built automation scripts for threat intelligence collection',
-    ],
+    degree: 'Intermediate (Class 12th)',
+    institution: 'Resonance Jr College, Hyderabad, Telangana',
+    period: '2020 — 2022',
+    score: 'Percentage: 76%',
+    description: 'Completed higher secondary education with focus on science and mathematics.',
   },
   {
-    role: 'Web Development Projects',
-    company: 'Personal Portfolio & Coursework',
-    period: '2023 — Present',
-    description:
-      'Designed and developed responsive web applications using HTML, CSS, JavaScript, and React.',
-    highlights: [
-      'Built this portfolio with React, Vite, and modern UI patterns',
-      'Applied responsive design and accessibility best practices',
-    ],
+    degree: 'Class 10th (SSC)',
+    institution: 'Army Public School, Hyderabad, Telangana',
+    period: '2020',
+    score: 'Percentage: 73%',
+    description: 'Completed secondary school education.',
   },
 ];
 

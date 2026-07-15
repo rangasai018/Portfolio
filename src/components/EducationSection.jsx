@@ -1,19 +1,19 @@
-import { education, experience, certifications } from '../data/portfolio';
+import { education, certifications } from '../data/portfolio';
 import { useScrollReveal } from '../hooks/usePortfolioEffects';
 import ResumeDownload from './ResumeDownload';
 
-function Experience() {
+function EducationSection() {
   const [ref, isVisible] = useScrollReveal();
 
   return (
-    <section id="experience" className="section section--dark">
+    <section id="education" className="section section--dark">
       <div className="container">
         <div ref={ref} className={`section__header reveal ${isVisible ? 'is-visible' : ''}`}>
           <span className="section__eyebrow">Background</span>
-          <h2>Experience & Education</h2>
+          <h2>Education & Certifications</h2>
           <p>
-            A snapshot of my academic journey, hands-on security work, and professional
-            development path.
+            My academic journey from school through engineering, along with professional
+            certifications and virtual experience programs.
           </p>
           <div className="section__actions">
             <ResumeDownload variant="primary" />
@@ -22,34 +22,18 @@ function Experience() {
 
         <div className="timeline">
           <div className={`timeline__group reveal ${isVisible ? 'is-visible' : ''}`}>
-            <h3 className="timeline__heading">Experience</h3>
-            {experience.map((item, index) => (
+            <h3 className="timeline__heading">Education</h3>
+            {education.map((item, index) => (
               <article
-                key={item.role}
+                key={item.degree}
                 className="timeline-card"
                 style={{ transitionDelay: `${index * 100}ms` }}
               >
                 <div className="timeline-card__meta">
                   <span className="timeline-card__period">{item.period}</span>
-                </div>
-                <h4>{item.role}</h4>
-                <p className="timeline-card__company">{item.company}</p>
-                <p>{item.description}</p>
-                <ul>
-                  {item.highlights.map((point) => (
-                    <li key={point}>{point}</li>
-                  ))}
-                </ul>
-              </article>
-            ))}
-          </div>
-
-          <div className={`timeline__group reveal ${isVisible ? 'is-visible' : ''}`}>
-            <h3 className="timeline__heading">Education</h3>
-            {education.map((item) => (
-              <article key={item.degree} className="timeline-card">
-                <div className="timeline-card__meta">
-                  <span className="timeline-card__period">{item.period}</span>
+                  {item.score ? (
+                    <span className="timeline-card__score">{item.score}</span>
+                  ) : null}
                 </div>
                 <h4>{item.degree}</h4>
                 <p className="timeline-card__company">{item.institution}</p>
@@ -83,4 +67,4 @@ function Experience() {
   );
 }
 
-export default Experience;
+export default EducationSection;
