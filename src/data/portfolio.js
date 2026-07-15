@@ -10,8 +10,9 @@ export const personalInfo = {
   linkedin: 'https://www.linkedin.com/in/ranga-sai-ch-275300256',
   github: 'https://github.com/rangasai018',
   location: 'India',
-  resumeFile: 'https://drive.google.com/file/d/1Z7OReaUhLIeyuQ7xm1p0Kx5w-QgbktH9/view?usp=drivesdk',
-  resumeLabel: 'Download Resume',
+  resumeFile: 'https://drive.google.com/file/d/1Z7OReaUhLIeyuQ7xm1p0Kx5w-QgbktH9/view?usp=sharing',
+  resumeDownloadName: 'Sai_Resume.pdf',
+  resumeLabel: 'View Resume',
   tagline:
     'Building secure web experiences and exploring the intersection of development and cyber security.',
 };
@@ -40,7 +41,6 @@ export const socialLinks = [
     label: 'Resume',
     href: personalInfo.resumeFile,
     icon: 'resume',
-    download: true,
   },
 ];
 
@@ -63,30 +63,30 @@ export const education = [
   },
 ];
 
-// export const experience = [
-//   {
-//     role: 'Cyber Security Projects & Labs',
-//     company: 'Academic & Self-Directed',
-//     period: '2023 — 2026',
-//     description:
-//       'Hands-on work with Wireshark, Nmap, Burp Suite, and Metasploit through lab exercises and personal projects.',
-//     highlights: [
-//       'Performed packet analysis and identified unencrypted traffic risks',
-//       'Built automation scripts for threat intelligence collection',
-//     ],
-//   },
-//   {
-//     role: 'Web Development Projects',
-//     company: 'Personal Portfolio & Coursework',
-//     period: '2023 — Present',
-//     description:
-//       'Designed and developed responsive web applications using HTML, CSS, JavaScript, and React.',
-//     highlights: [
-//       'Built this portfolio with React, Vite, and modern UI patterns',
-//       'Applied responsive design and accessibility best practices',
-//     ],
-//   },
-// ];
+export const experience = [
+  {
+    role: 'Cyber Security Projects & Labs',
+    company: 'Academic & Self-Directed',
+    period: '2023 — 2026',
+    description:
+      'Hands-on work with Wireshark, Nmap, Burp Suite, and Metasploit through lab exercises and personal projects.',
+    highlights: [
+      'Performed packet analysis and identified unencrypted traffic risks',
+      'Built automation scripts for threat intelligence collection',
+    ],
+  },
+  {
+    role: 'Web Development Projects',
+    company: 'Personal Portfolio & Coursework',
+    period: '2023 — Present',
+    description:
+      'Designed and developed responsive web applications using HTML, CSS, JavaScript, and React.',
+    highlights: [
+      'Built this portfolio with React, Vite, and modern UI patterns',
+      'Applied responsive design and accessibility best practices',
+    ],
+  },
+];
 
 export const certifications = [
   {

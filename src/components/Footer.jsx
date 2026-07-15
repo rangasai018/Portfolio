@@ -17,7 +17,11 @@ function Footer() {
             LinkedIn
           </a>
           <a href={`mailto:${personalInfo.email}`}>Email</a>
-          <a href={personalInfo.resumeFile} download="Ranga_Sai_CH_Resume.pdf">
+          <a
+            href={personalInfo.resumeFile}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Resume
           </a>
         </div>

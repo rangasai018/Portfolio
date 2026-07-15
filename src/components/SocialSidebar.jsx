@@ -32,8 +32,7 @@ function SocialSidebar() {
             <a
               href={link.href}
               target={link.id === 'email' ? undefined : '_blank'}
-              rel={link.id === 'email' ? undefined : 'noreferrer'}
-              download={link.download ? 'Ranga_Sai_CH_Resume.pdf' : undefined}
+              rel={link.id === 'email' ? undefined : 'noopener noreferrer'}
               aria-label={link.label}
             >
               {iconMap[link.icon]}

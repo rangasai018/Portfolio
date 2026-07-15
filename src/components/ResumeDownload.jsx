@@ -6,10 +6,9 @@ function ResumeDownload({ className = '', variant = 'primary', children }) {
   return (
     <a
       href={personalInfo.resumeFile}
-      download="Ranga_Sai_CH_Resume.pdf"
       className={`btn btn--${variant} ${className}`.trim()}
       target="_blank"
-      rel="noreferrer"
+      rel="noopener noreferrer"
     >
       <span className="btn__icon" aria-hidden="true">
         ↓
