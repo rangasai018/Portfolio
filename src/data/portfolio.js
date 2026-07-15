@@ -7,10 +7,10 @@ export const personalInfo = {
     'Cyber Security Enthusiast',
   ],
   email: 'chiraboinarangasai@gmail.com',
-  linkedin: 'https://www.linkedin.com/in/ranga-sai-ch',
-  github: 'https://github.com/RangaSaiCh',
+  linkedin: 'https://www.linkedin.com/in/ranga-sai-ch-275300256',
+  github: 'https://github.com/rangasai018',
   location: 'India',
-  resumeFile: '/Ranga_Sai_CH_Resume.pdf',
+  resumeFile: 'https://drive.google.com/file/d/1Z7OReaUhLIeyuQ7xm1p0Kx5w-QgbktH9/view?usp=drivesdk',
   resumeLabel: 'Download Resume',
   tagline:
     'Building secure web experiences and exploring the intersection of development and cyber security.',
@@ -56,49 +56,73 @@ export const navLinks = [
 export const education = [
   {
     degree: 'B.Tech in Computer Science & Engineering (Cyber Security)',
-    institution: 'Your University Name',
-    period: '2022 — Present',
+    institution: 'CMR College of Engineering & Technology, Hyderabad, India',
+    period: '2022 — 2026',
     description:
       'Focused on network security, ethical hacking, secure software development, and threat analysis.',
   },
 ];
 
-export const experience = [
-  {
-    role: 'Cyber Security Projects & Labs',
-    company: 'Academic & Self-Directed',
-    period: '2023 — Present',
-    description:
-      'Hands-on work with Wireshark, Nmap, Burp Suite, and Metasploit through lab exercises and personal projects.',
-    highlights: [
-      'Performed packet analysis and identified unencrypted traffic risks',
-      'Built automation scripts for threat intelligence collection',
-    ],
-  },
-  {
-    role: 'Web Development Projects',
-    company: 'Personal Portfolio & Coursework',
-    period: '2023 — Present',
-    description:
-      'Designed and developed responsive web applications using HTML, CSS, JavaScript, and React.',
-    highlights: [
-      'Built this portfolio with React, Vite, and modern UI patterns',
-      'Applied responsive design and accessibility best practices',
-    ],
-  },
-];
+// export const experience = [
+//   {
+//     role: 'Cyber Security Projects & Labs',
+//     company: 'Academic & Self-Directed',
+//     period: '2023 — 2026',
+//     description:
+//       'Hands-on work with Wireshark, Nmap, Burp Suite, and Metasploit through lab exercises and personal projects.',
+//     highlights: [
+//       'Performed packet analysis and identified unencrypted traffic risks',
+//       'Built automation scripts for threat intelligence collection',
+//     ],
+//   },
+//   {
+//     role: 'Web Development Projects',
+//     company: 'Personal Portfolio & Coursework',
+//     period: '2023 — Present',
+//     description:
+//       'Designed and developed responsive web applications using HTML, CSS, JavaScript, and React.',
+//     highlights: [
+//       'Built this portfolio with React, Vite, and modern UI patterns',
+//       'Applied responsive design and accessibility best practices',
+//     ],
+//   },
+// ];
 
 export const certifications = [
   {
-    title: 'Introduction to Cyber Security',
-    issuer: 'Online Learning Platform',
+    title: 'GenAI Governance',
+    issuer: 'Skillsoft',
+    year: '2025',
+    credentialUrl: '',
+  },
+  {
+    title: 'Ethical Hacker',
+    issuer: 'Cisco Networking Academy',
     year: '2024',
     credentialUrl: '',
   },
   {
-    title: 'Python for Everybody',
-    issuer: 'Online Learning Platform',
-    year: '2023',
+    title: 'Introduction to Cybersecurity',
+    issuer: 'Cisco Networking Academy',
+    year: '2024',
+    credentialUrl: '',
+  },
+  {
+    title: 'Tata Group Data Analytics Job Simulation',
+    issuer: 'Forage',
+    year: '2025',
+    credentialUrl: '',
+  },
+  {
+    title: 'Deloitte Australia Data Analytics Job Simulation',
+    issuer: 'Forage',
+    year: '2025',
+    credentialUrl: '',
+  },
+  {
+    title: 'Deloitte Australia Cyber Job Simulation',
+    issuer: 'Forage',
+    year: '2025',
     credentialUrl: '',
   },
 ];
@@ -173,27 +197,43 @@ export const skills = [
 
 export const projects = [
   {
-    title: 'Sniffing Unencrypted Network Traffic',
+    title: 'E-Commerce Platform',
     description:
-      'Captured and analyzed sensitive HTTP data using Wireshark to demonstrate risks of unencrypted communication.',
-    tags: ['Wireshark', 'Network Security', 'Packet Analysis'],
-    githubUrl: 'https://github.com/RangaSaiCh',
+      'A full-stack e-commerce web application built using Spring Boot, Java, HTML, CSS, JavaScript, MySQL, Docker, Render, and Vercel. Features user authentication, product browsing, shopping cart, and a responsive user interface.',
+    tags: ['Java', 'Spring Boot', 'MySQL', 'Docker', 'HTML', 'CSS', 'JavaScript'],
+    githubUrl: 'https://github.com/rangasai018/ecommerce-platform',
     liveUrl: '',
   },
   {
-    title: 'Instagram Drug Detection',
+    title: 'Encrypted & Compressed Key-Value Store Using Pattern Analysis',
     description:
-      'Machine learning system designed to detect drug-related content on social media platforms.',
-    tags: ['Python', 'Machine Learning', 'NLP'],
-    githubUrl: 'https://github.com/RangaSaiCh',
+      'A secure cloud-native key-value store using FastAPI with AES-Fernet encryption, LZ4 compression, JWT authentication, SQLite/Redis support, and real-time pattern analysis.',
+    tags: ['Python', 'FastAPI', 'SQLite', 'Redis', 'Docker', 'JWT'],
+    githubUrl: 'https://github.com/rangasai018/Encrypted-And-Compressed-Key-Value-Store-Using-Pattern-Analysis',
     liveUrl: '',
   },
   {
-    title: 'Threat Intelligence Collector',
+    title: 'Java Chat Application',
     description:
-      'Automated collection and analysis of cyber threat feeds for actionable security insights.',
-    tags: ['Python', 'Threat Intel', 'Automation'],
-    githubUrl: 'https://github.com/RangaSaiCh',
+      'A real-time client-server chat application developed using Java Socket Programming for seamless communication between multiple users.',
+    tags: ['Java', 'Socket Programming', 'Networking'],
+    githubUrl: 'https://github.com/rangasai018/Java-Chat-Application',
+    liveUrl: '',
+  },
+  {
+    title: 'Android Malware Detection',
+    description:
+      'An Android malware detection system using ensemble machine learning models including XGBoost, LightGBM, CatBoost, Random Forest, and SVM to classify applications as benign or malicious.',
+    tags: ['Python', 'Machine Learning', 'Flask', 'XGBoost', 'SHAP'],
+    githubUrl: 'https://github.com/rangasai018/Android-Malware-Detection',
+    liveUrl: '',
+  },
+  {
+    title: 'Quiz App',
+    description:
+      'An interactive quiz application built with JavaScript that provides a responsive interface, score tracking, and dynamic question handling.',
+    tags: ['JavaScript', 'HTML', 'CSS'],
+    githubUrl: 'https://github.com/rangasai018/Quiz-App',
     liveUrl: '',
   },
 ];
