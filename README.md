@@ -16,6 +16,10 @@ Professional personal portfolio built with **React** and **Vite**.
 - Mobile-friendly navigation
 - Project and contact sections
 
+## Recent Updates
+
+- Removed the large background "SKILLS" watermark from the Skills section for a cleaner, less distracting layout.
+
 ## Tech Stack
 
 - React 19

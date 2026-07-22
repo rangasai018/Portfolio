@@ -28,10 +28,6 @@ function Skills() {
       onMouseLeave={() => setSpotlightActive(false)}
       onMouseMove={handleMouseMove}
     >
-      <span className="skills__watermark" aria-hidden="true">
-        SKILLS
-      </span>
-
       <div className="container">
         <div ref={ref} className={`section__header section__header--center reveal ${isVisible ? 'is-visible' : ''}`}>
           <span className="section__eyebrow">Technical Stack</span>
